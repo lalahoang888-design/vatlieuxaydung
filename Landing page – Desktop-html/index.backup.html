@@ -1,0 +1,334 @@
+<!doctype html>
+<meta charset="utf-8"><style data-dc-design-system-vars>@layer{:root{--surface-100:#f5f1e9;--surface-200:#ebe4d6;--surface-300:#d9cdb7;--line:#d6cbb7;--line-strong:#8a806c;--ink:#1e221c;--ink-muted:#575a50;--brand:#3f5239;--brand-strong:#2c3a28;--on-brand:#f5f1e9;--accent:#7f542e;--danger:#a8361f;--success:#2b5f73;--shadow-raised:0 1px 2px rgba(30, 34, 28, 0.08), 0 4px 12px rgba(30, 34, 28, 0.06);--space-1:4px;--space-2:8px;--space-4:16px;--space-6:24px;--space-8:32px;--space-12:48px;--radius-sm:2px;--radius-md:4px;--radius-lg:8px;--font-display:Fraunces, "Noto Serif", Georgia, serif;--font-sans:"Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;--text-display:500 56px/60px var(--font-display);--text-h1:500 40px/46px var(--font-display);--text-h2:500 28px/34px var(--font-display);--text-h3:600 20px/28px var(--font-sans);--text-body:400 16px/26px var(--font-sans);--text-small:400 14px/22px var(--font-sans);--text-label:600 12px/16px var(--font-sans);}}</style>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Thạch Mộc — Vật liệu xây dựng cho nhà thầu</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&amp;family=Fraunces:opsz,wght@9..144,500&amp;display=swap">
+<style>
+body{margin:0;background:#f5f1e9}
+a{color:#3f5239}a:hover{color:#2c3a28}
+*:focus-visible{outline:2px solid #7f542e;outline-offset:2px}
+.btn-primary:hover{background:#2c3a28 !important}
+.btn-ghost:hover{background:#ebe4d6 !important}
+.nav-link{color:#1e221c;text-decoration:none}
+.nav-link:hover{color:#3f5239;text-decoration:underline}
+</style>
+</helmet>
+<div style="font-family: 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; color: #1e221c; background: #f5f1e9; font-size: 16px; line-height: 26px">
+
+<!-- Header -->
+<header style="border-bottom: 1px solid #d6cbb7; background: #f5f1e9">
+<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="text-decoration: none; display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 32px; color: #3f5239">Thạch Mộc</span>
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">VẬT LIỆU XÂY DỰNG</span>
+</a>
+<nav aria-label="Điều hướng chính" style="display: flex; flex-wrap: wrap; gap: 24px; font-size: 14px; line-height: 22px; font-weight: 600">
+<a class="nav-link" href="#san-pham">Sản phẩm</a>
+<a class="nav-link" href="#bang-gia">Bảng giá</a>
+<a class="nav-link" href="#quy-trinh">Quy trình</a>
+<a class="nav-link" href="#cong-trinh">Công trình</a>
+<a class="nav-link" href="#lien-he">Liên hệ</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a class="btn-ghost" href="tel:0901234567" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; box-sizing: border-box; padding: 0 16px; border: 1px solid #8a806c; border-radius: 4px; color: #1e221c; text-decoration: none; font-size: 14px; font-weight: 600">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+Gọi tư vấn
+</a>
+<a class="btn-primary" href="#lien-he" style="display: inline-flex; align-items: center; min-height: 44px; box-sizing: border-box; padding: 0 16px; background: #3f5239; color: #f5f1e9; border-radius: 4px; text-decoration: none; font-size: 14px; font-weight: 600">Nhận báo giá</a>
+</div>
+</div>
+</header>
+
+<!-- Hero -->
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 64px 24px 48px; display: flex; flex-wrap: wrap; gap: 48px; align-items: stretch">
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 24px; justify-content: center">
+<span style="align-self: flex-start; padding: 4px 8px; background: #d9cdb7; border-radius: 2px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #1e221c">NHÀ CUNG CẤP CHO NHÀ THẦU VÀ CÔNG TRÌNH</span>
+<h1 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 56px; line-height: 60px; letter-spacing: -0.02em; color: #1e221c">Nền móng của mọi công trình</h1>
+<p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 28px; color: #575a50">Xi măng, gạch, đá ốp lát, thép và vật liệu thô với quy cách rõ ràng, báo giá theo khối lượng và giao tận chân công trình.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a class="btn-primary" href="#lien-he" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; padding: 0 24px; background: #3f5239; color: #f5f1e9; border-radius: 4px; text-decoration: none; font-weight: 600">Nhận báo giá</a>
+<a class="btn-ghost" href="#bang-gia" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; padding: 0 24px; border: 1px solid #8a806c; color: #1e221c; border-radius: 4px; text-decoration: none; font-weight: 600">Xem bảng giá</a>
+</div>
+<ul style="margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; line-height: 22px; color: #1e221c">
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Giao trong 24 giờ tại nội thành</li>
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Báo giá trong 2 giờ làm việc</li>
+<li style="display: flex; align-items: center; gap: 8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Hóa đơn VAT, chứng chỉ CO/CQ</li>
+</ul>
+<dl style="margin: 16px 0 0; padding-top: 24px; border-top: 1px solid #d6cbb7; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 16px">
+<div style="display: flex; flex-direction: column-reverse; gap: 2px"><dt style="font-size: 14px; line-height: 22px; color: #575a50">năm cung ứng vật liệu</dt><dd style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 34px; color: #3f5239">14</dd></div>
+<div style="display: flex; flex-direction: column-reverse; gap: 2px"><dt style="font-size: 14px; line-height: 22px; color: #575a50">công trình đã giao</dt><dd style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 34px; color: #3f5239">1.850+</dd></div>
+<div style="display: flex; flex-direction: column-reverse; gap: 2px"><dt style="font-size: 14px; line-height: 22px; color: #575a50">m² kho tại 3 điểm</dt><dd style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 34px; color: #3f5239">12.000</dd></div>
+<div style="display: flex; flex-direction: column-reverse; gap: 2px"><dt style="font-size: 14px; line-height: 22px; color: #575a50">xe tải và xe ben</dt><dd style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 34px; color: #3f5239">38</dd></div>
+</dl>
+</div>
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img src="./assets/a2e7340cd5aac7b94205d2b8e67b5816.jpg" alt="Cận cảnh bề mặt đá travertine dưới ánh sáng tự nhiên" style="width: 100%; height: 320px; object-fit: cover; border-radius: 8px; display: block">
+<figcaption style="font-size: 14px; line-height: 22px; color: #575a50">Đá travertine nhập khẩu, tấm 600 × 1200 mm, dày 20 mm</figcaption>
+</figure>
+<div aria-hidden="true" style="height: 152px; border-radius: 8px; background: #3f5239; overflow: hidden; padding: 8px 0; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
+<sc-for list="{{ heroRows }}" as="row" hint-placeholder-count="3">
+<div style="display: flex; gap: 8px; margin-left: {{ row.offset }}">
+<sc-for list="{{ row.bricks }}" as="b" hint-placeholder-count="10">
+<div style="flex: 0 0 112px; height: 40px; background: #2c3a28; border-radius: 2px"></div>
+</sc-for>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<!-- Value strip -->
+<section aria-label="Cam kết" style="border-top: 1px solid #d6cbb7; border-bottom: 1px solid #d6cbb7; background: #ebe4d6">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<div style="display: flex; gap: 16px; align-items: flex-start">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+<div><div style="font-size: 20px; line-height: 28px; font-weight: 600">Giao đúng hẹn</div><div style="font-size: 14px; line-height: 22px; color: #575a50">Xe tải 1,5–15 tấn và xe ben, giao tận chân công trình, có biên bản giao nhận.</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: flex-start">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+<div><div style="font-size: 20px; line-height: 28px; font-weight: 600">Hàng chính hãng</div><div style="font-size: 14px; line-height: 22px; color: #575a50">Mỗi lô hàng kèm chứng chỉ chất lượng và nguồn gốc.</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: flex-start">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
+<div><div style="font-size: 20px; line-height: 28px; font-weight: 600">Giá theo khối lượng</div><div style="font-size: 14px; line-height: 22px; color: #575a50">Chiết khấu bậc thang cho đơn lớn và hợp đồng cả công trình.</div></div>
+</div>
+<div style="display: flex; gap: 16px; align-items: flex-start">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3f5239" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M22 8.35V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.35A2 2 0 0 1 3.26 6.5l8-3.2a2 2 0 0 1 1.48 0l8 3.2A2 2 0 0 1 22 8.35Z"></path><path d="M6 18h12"></path><path d="M6 14h12"></path><rect width="12" height="12" x="6" y="10"></rect></svg>
+<div><div style="font-size: 20px; line-height: 28px; font-weight: 600">Kho sẵn hàng</div><div style="font-size: 14px; line-height: 22px; color: #575a50">3 kho tại Thủ Đức, Dĩ An và Bình Chánh, tồn kho cập nhật hằng ngày.</div></div>
+</div>
+</div>
+</section>
+
+<!-- Categories -->
+<section id="san-pham" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 48px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 640px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">DANH MỤC SẢN PHẨM</span>
+<h2 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 40px; line-height: 46px; letter-spacing: -0.01em">Đủ vật liệu cho một công trình, từ móng đến hoàn thiện</h2>
+</div>
+<a href="#bang-gia" style="font-weight: 600">Xem toàn bộ bảng giá</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px">
+<sc-for list="{{ categories }}" as="c" hint-placeholder-count="6">
+<article style="background: #ebe4d6; border: 1px solid #d6cbb7; border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<img src="{{ c.img }}" alt="{{ c.imgLabel }}" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; display: block">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 600">{{ c.name }}</h3>
+<p style="margin: 0; font-size: 14px; line-height: 22px; color: #575a50">{{ c.spec }}</p>
+<p style="margin: 4px 0 0; font-size: 14px; line-height: 22px; color: #1e221c">Từ <span style="font-weight: 600">{{ c.from }}</span></p>
+</div>
+<a href="#bang-gia" style="margin-top: auto; display: inline-flex; align-items: center; gap: 4px; min-height: 44px; font-size: 14px; font-weight: 600">Xem quy cách và giá
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+</a>
+</article>
+</sc-for>
+</div>
+</section>
+
+<!-- Price table -->
+<section id="bang-gia" style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 720px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">BẢNG GIÁ THAM KHẢO</span>
+<h2 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 40px; line-height: 46px; letter-spacing: -0.01em">Báo giá cho công trình</h2>
+<p style="margin: 0; color: #575a50">Giá chưa gồm VAT và phí vận chuyển ngoài nội thành. Cập nhật ngày 25/11/2026. Gửi khối lượng để nhận giá theo đơn.</p>
+</div>
+<div style="background: #ebe4d6; border: 1px solid #d6cbb7; border-radius: 4px; overflow-x: auto">
+<table style="width: 100%; min-width: 760px; border-collapse: collapse; font-size: 14px; line-height: 22px">
+<thead>
+<tr style="border-bottom: 1px solid #d6cbb7">
+<th scope="col" style="text-align: left; padding: 16px 24px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">SẢN PHẨM</th>
+<th scope="col" style="text-align: left; padding: 16px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">QUY CÁCH</th>
+<th scope="col" style="text-align: left; padding: 16px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">TÌNH TRẠNG</th>
+<th scope="col" style="text-align: right; padding: 16px 24px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">ĐƠN GIÁ</th>
+</tr>
+</thead>
+<tbody>
+<sc-for list="{{ prices }}" as="p" hint-placeholder-count="6">
+<tr style="border-bottom: 1px solid #d6cbb7">
+<td style="padding: 16px 24px; font-weight: 600; color: #1e221c">
+<span style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px">{{ p.name }}
+<sc-if value="{{ p.featured }}" hint-placeholder-val="{{ false }}"><span style="padding: 2px 8px; border: 1px solid #7f542e; border-radius: 2px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #7f542e">HÀNG TUYỂN</span></sc-if>
+</span>
+</td>
+<td style="padding: 16px; color: #575a50">{{ p.spec }}</td>
+<td style="padding: 16px">
+<sc-if value="{{ p.inStock }}" hint-placeholder-val="{{ true }}">
+<span style="display: inline-flex; align-items: center; gap: 4px; color: #2b5f73; font-weight: 600"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>Còn hàng</span>
+</sc-if>
+<sc-if value="{{ p.outStock }}" hint-placeholder-val="{{ false }}">
+<span style="display: inline-flex; align-items: center; gap: 4px; color: #a8361f; font-weight: 600"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>Đặt trước</span>
+</sc-if>
+</td>
+<td style="padding: 16px 24px; text-align: right; font-variant-numeric: tabular-nums; color: #1e221c; white-space: nowrap"><span style="font-weight: 600">{{ p.price }}</span> <span style="color: #575a50">{{ p.unit }}</span></td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- Process -->
+<section id="quy-trinh" style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">QUY TRÌNH ĐẶT HÀNG</span>
+<h2 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 40px; line-height: 46px; letter-spacing: -0.01em">Bốn bước, một đầu mối</h2>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+<li style="border-top: 2px solid #3f5239; padding-top: 16px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 34px; color: #3f5239">{{ s.num }}</span>
+<span style="font-size: 20px; line-height: 28px; font-weight: 600">{{ s.title }}</span>
+<span style="font-size: 14px; line-height: 22px; color: #575a50">{{ s.text }}</span>
+</li>
+</sc-for>
+</ol>
+</section>
+
+<!-- Projects -->
+<section id="cong-trinh" style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 96px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">CÔNG TRÌNH ĐÃ CUNG CẤP</span>
+<h2 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 40px; line-height: 46px; letter-spacing: -0.01em">Vật liệu của chúng tôi đang đứng vững ở đây</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<sc-for list="{{ projects }}" as="pj" hint-placeholder-count="3">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+<img src="{{ pj.img }}" alt="{{ pj.alt }}" style="width: 100%; height: 260px; object-fit: cover; border-radius: 8px; display: block">
+<figcaption style="display: flex; flex-direction: column">
+<span style="font-size: 16px; line-height: 26px; font-weight: 600">{{ pj.name }}</span>
+<span style="font-size: 14px; line-height: 22px; color: #575a50">{{ pj.detail }}</span>
+</figcaption>
+</figure>
+</sc-for>
+</div>
+</section>
+
+<!-- Quote form -->
+<section id="lien-he" style="background: #3f5239; color: #f5f1e9">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 40px; line-height: 46px; letter-spacing: -0.01em; color: #f5f1e9">Gửi khối lượng, nhận báo giá trong ngày</h2>
+<p style="margin: 0; color: #f5f1e9">Gửi danh sách vật liệu hoặc bản bóc tách khối lượng. Bộ phận kinh doanh gọi lại xác nhận quy cách và gửi báo giá chính thức cho Quý khách.</p>
+<dl style="margin: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 2px"><dt style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em">HOTLINE</dt><dd style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 600">0901 234 567</dd></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><dt style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em">ZALO</dt><dd style="margin: 0">0901 234 567 (Thạch Mộc Kinh doanh)</dd></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><dt style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em">KHO HÀNG</dt><dd style="margin: 0">Kho Thủ Đức: 128 Xa lộ Hà Nội, TP. Thủ Đức<br>Kho Dĩ An: 45 ĐT743, Dĩ An, Bình Dương<br>Kho Bình Chánh: 210 Quốc lộ 1A, Bình Chánh</dd></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><dt style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em">GIỜ LÀM VIỆC</dt><dd style="margin: 0">7:00–17:30, thứ Hai đến thứ Bảy</dd></div>
+</dl>
+</div>
+<form style="flex: 1 1 480px; min-width: 0; background: #f5f1e9; color: #1e221c; border-radius: 8px; padding: 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 20px; line-height: 28px; font-weight: 600">Yêu cầu báo giá</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<label for="f-name" style="font-size: 14px; line-height: 22px; font-weight: 600">Họ và tên</label>
+<input id="f-name" type="text" autocomplete="name" style="min-height: 44px; box-sizing: border-box; padding: 0 16px; border: 1px solid #8a806c; border-radius: 4px; background: #f5f1e9; font: inherit; color: #1e221c">
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<label for="f-phone" style="font-size: 14px; line-height: 22px; font-weight: 600">Số điện thoại</label>
+<input id="f-phone" type="tel" autocomplete="tel" style="min-height: 44px; box-sizing: border-box; padding: 0 16px; border: 1px solid #8a806c; border-radius: 4px; background: #f5f1e9; font: inherit; color: #1e221c">
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<label for="f-site" style="font-size: 14px; line-height: 22px; font-weight: 600">Công trình / địa chỉ giao hàng</label>
+<input id="f-site" type="text" style="min-height: 44px; box-sizing: border-box; padding: 0 16px; border: 1px solid #8a806c; border-radius: 4px; background: #f5f1e9; font: inherit; color: #1e221c">
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<label for="f-list" style="font-size: 14px; line-height: 22px; font-weight: 600">Danh sách vật liệu và khối lượng</label>
+<textarea id="f-list" rows="5" placeholder="Ví dụ: Xi măng PCB40 — 200 bao; gạch ốp 600 × 1200 mm — 350 m²" style="box-sizing: border-box; padding: 12px 16px; border: 1px solid #8a806c; border-radius: 4px; background: #f5f1e9; font: inherit; color: #1e221c; resize: vertical"></textarea>
+</div>
+<button class="btn-primary" type="button" style="min-height: 48px; padding: 0 24px; border: 0; border-radius: 4px; background: #3f5239; color: #f5f1e9; font: inherit; font-weight: 600; cursor: pointer">Nhận báo giá</button>
+<p style="margin: 0; font-size: 14px; line-height: 22px; color: #575a50">Thông tin chỉ dùng để liên hệ báo giá.</p>
+</form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="background: #f5f1e9">
+<div aria-hidden="true" style="height: 104px; overflow: hidden; padding: 0; display: flex; flex-direction: column; gap: 8px; background: #f5f1e9">
+<sc-for list="{{ footRows }}" as="row" hint-placeholder-count="2">
+<div style="display: flex; gap: 8px; margin-left: {{ row.offset }}">
+<sc-for list="{{ row.bricks }}" as="b" hint-placeholder-count="16">
+<div style="flex: 0 0 112px; height: 48px; background: #d9cdb7; border-radius: 2px"></div>
+</sc-for>
+</div>
+</sc-for>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: Fraunces, 'Noto Serif', Georgia, serif; font-weight: 500; font-size: 28px; line-height: 32px; color: #3f5239">Thạch Mộc</span>
+<span style="font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; color: #575a50">VẬT LIỆU XÂY DỰNG</span>
+<span style="margin-top: 16px; font-size: 14px; line-height: 22px; color: #575a50">Công ty TNHH Vật liệu Xây dựng Thạch Mộc · MST 0316 245 789</span>
+</div>
+<nav aria-label="Liên kết cuối trang" style="display: flex; flex-wrap: wrap; gap: 24px; font-size: 14px; line-height: 22px; font-weight: 600">
+<a class="nav-link" href="#san-pham">Sản phẩm</a>
+<a class="nav-link" href="#bang-gia">Bảng giá</a>
+<a class="nav-link" href="#quy-trinh">Quy trình</a>
+<a class="nav-link" href="#lien-he">Liên hệ</a>
+</nav>
+</div>
+<div style="border-top: 1px solid #d6cbb7">
+<div style="max-width: 1200px; margin: 0 auto; padding: 16px 24px; font-size: 14px; line-height: 22px; color: #575a50">© 2026 Thạch Mộc. 128 Xa lộ Hà Nội, P. Phước Long, TP. Thủ Đức, TP. Hồ Chí Minh</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5200}}'>
+class Component extends DCLogic {
+  bond(rows, count) {
+    var out = [];
+    for (var r = 0; r < rows; r++) {
+      var bricks = [];
+      for (var i = 0; i < count; i++) bricks.push({ i: i });
+      out.push({ offset: r % 2 ? '-60px' : '0px', bricks: bricks });
+    }
+    return out;
+  }
+  renderVals() {
+    return {
+      heroRows: this.bond(3, 10),
+      footRows: this.bond(2, 16),
+      categories: [
+        { name: 'Xi măng và vữa', spec: 'PCB30, PCB40 · bao 50 kg · vữa khô trộn sẵn', from: '86.000 đ/bao', img: './assets/0b103768f276920a5e468bc4943469cd.jpg', imgLabel: 'Bề mặt bê tông hoàn thiện' },
+        { name: 'Gạch xây và gạch ốp lát', spec: 'Gạch đặc, gạch lỗ · gạch ốp 600 × 600, 600 × 1200 mm', from: '1.250 đ/viên', img: './assets/758ade4a7211b31148cc8ece49d3efc9.jpg', imgLabel: 'Tường gạch đỏ xây so le' },
+        { name: 'Đá ốp lát tự nhiên', spec: 'Granite, marble · tấm khổ lớn, dày 18–20 mm', from: '620.000 đ/m²', img: './assets/c3f475b0f3e17ff8ac12d965adb2dbe6.jpg', imgLabel: 'Cận cảnh bề mặt đá granite' },
+        { name: 'Thép xây dựng', spec: 'Thép cuộn D6–D8 · thép thanh vằn D10–D32', from: '14.600 đ/kg', img: './assets/b3fb07a097445b6cb8c1f57130ca636d.jpg', imgLabel: 'Bó thép thanh vằn' },
+        { name: 'Cát, đá và vật liệu thô', spec: 'Cát vàng, cát xây tô · đá 1 × 2, 4 × 6 · tính theo m³', from: '310.000 đ/m³', img: './assets/1927fa99e1472f185d67c20a12e6af5b.jpg', imgLabel: 'Cận cảnh đá dăm' },
+        { name: 'Gỗ và ván công nghiệp', spec: 'Ván ép cốp pha · gỗ xẻ · ván MDF chống ẩm', from: '235.000 đ/tấm', img: './assets/9fef2bf7525d1023873c43d91c4e7b7f.jpg', imgLabel: 'Cận cảnh vân gỗ' }
+      ],
+      prices: [
+        { name: 'Xi măng PCB40', spec: 'Bao 50 kg', price: '92.000', unit: 'đ/bao', inStock: true, outStock: false, featured: false },
+        { name: 'Gạch ốp lát porcelain', spec: '600 × 1200 mm · dày 9 mm', price: '345.000', unit: 'đ/m²', inStock: true, outStock: false, featured: true },
+        { name: 'Đá granite tự nhiên', spec: 'Tấm khổ lớn · dày 20 mm', price: '1.180.000', unit: 'đ/m²', inStock: false, outStock: true, featured: false },
+        { name: 'Thép thanh vằn D16', spec: 'CB400 · cây 11,7 m', price: '15.300', unit: 'đ/kg', inStock: true, outStock: false, featured: false },
+        { name: 'Cát vàng bê tông', spec: 'Đã sàng · giao bằng xe ben', price: '485.000', unit: 'đ/m³', inStock: true, outStock: false, featured: false },
+        { name: 'Đá 1 × 2', spec: 'Đá xanh · giao bằng xe ben', price: '395.000', unit: 'đ/m³', inStock: true, outStock: false, featured: false }
+      ],
+      steps: [
+        { num: '01', title: 'Gửi khối lượng', text: 'Gửi danh sách vật liệu qua biểu mẫu, Zalo hoặc email.' },
+        { num: '02', title: 'Nhận báo giá', text: 'Báo giá chính thức theo quy cách, kèm thời gian giao dự kiến.' },
+        { num: '03', title: 'Xác nhận đơn', text: 'Ký đơn hoặc hợp đồng, chốt lịch giao theo tiến độ công trình.' },
+        { num: '04', title: 'Giao tận công trình', text: 'Giao đủ số lượng, có biên bản giao nhận và hóa đơn VAT.' }
+      ],
+      projects: [
+        { name: 'Sảnh căn hộ Riverside Thảo Điền', detail: 'TP. Thủ Đức · 4.200 m² gạch porcelain 600 × 1200 mm', img: './assets/b703035d4d9d4ddd893458ca57be4d73.jpg', alt: 'Sàn lát gạch porcelain vân đá trắng' },
+        { name: 'Trường tiểu học An Phú', detail: 'Dĩ An, Bình Dương · 380.000 viên gạch đặc, 1.600 tấn xi măng', img: './assets/4b0c429d2e29582a164f0b3723764c27.jpg', alt: 'Mặt tường gạch đỏ hoàn thiện' },
+        { name: 'Văn phòng Sông Hồng Tower', detail: 'Quận 7 · 2.800 m² đá granite ốp sảnh và bậc thang', img: './assets/36aef8755631cb038b7bd9c3c64f3be9.jpg', alt: 'Mặt đá granite đánh bóng' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
